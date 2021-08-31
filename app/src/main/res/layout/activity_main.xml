@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:textColor="#fff"
+        android:text="Toast" />
+    <Button
+        android:id="@+id/b2"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9EBB0B"
+        android:textColor="#fff"
+        android:text="Button" />
+    <Button
+        android:id="@+id/b3"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF5722"
+        android:textColor="#fff"
+        android:text="Card View" />
+    <Button
+        android:id="@+id/b4"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0336FF"
+        android:textColor="#fff"
+        android:text="Intent" />
+    <Button
+        android:id="@+id/b5"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:textColor="#fff"
+        android:text="Dialogue" />
+    <Button
+        android:id="@+id/b6"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:textColor="#fff"
+        android:text="Permission" />
+    <Button
+        android:id="@+id/b7"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#fff"
+        android:text="WebView/Pro Bar" />
+    <Button
+        android:id="@+id/b8"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#27998E"
+        android:textColor="#fff"
+        android:text="List View" />
+    <Button
+        android:id="@+id/b9"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFAB00"
+        android:textColor="#fff"
+        android:text="Recycler View" />
+    <Button
+        android:id="@+id/b10"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DD2C00"
+        android:textColor="#fff"
+        android:text="ButterKnife" />
+    <Button
+        android:id="@+id/b11"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F4FF81"
+        android:textColor="#3F3F3F"
+        android:text="Volley" />
+    <Button
+        android:id="@+id/b12"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#C918286B"
+        android:textColor="#fff"
+        android:text="RetroFit" />
+    <Button
+        android:id="@+id/b13"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#558B2F"
+        android:textColor="#fff"
+        android:text="ACTV/Spinner" />
+    <Button
+        android:id="@+id/b14"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:textColor="#fff"
+        android:text="Imgage S/S" />
+
+    <Button
+        android:id="@+id/b15"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EA00B7"
+        android:textColor="#fff"
+        android:text="Gestures" />
+    <Button
+        android:id="@+id/b16"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#AF983F"
+        android:textColor="#fff"
+        android:text="Sensors" />
+    <Button
+        android:id="@+id/b17"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EC44FF"
+        android:textColor="#fff"
+        android:text="Rating Bar" />
+    <Button
+        android:id="@+id/b18"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#69F0AE"
+        android:text="Search View" />
+    <Button
+        android:id="@+id/b19"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0091EA"
+        android:textColor="#fff"
+        android:text="S_Preference" />
+    <Button
+        android:id="@+id/b20"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#548A92"
+        android:textColor="#fff"
+        android:text="AdMobs" />
+    <Button
+        android:id="@+id/b21"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:backgroundTint="#DF684B"
+        android:text="SqlLite" />
+    <Button
+        android:id="@+id/b22"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#717AD6"
+        android:text="GoogleMaps" />
+    <Button
+        android:id="@+id/b23"
+        android:textColor="#fff"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#827717"
+        android:text="Animation" />
+    <Button
+        android:id="@+id/b24"
+        android:textColor="#fff"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E25C5C"
+        android:text="Layouts" />
+
+</GridLayout>

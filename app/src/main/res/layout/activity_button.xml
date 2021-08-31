@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/linearlayout"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ButtonActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colored Button with backgroundTint"
+        android:textColor="#fff"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Colored Button with background"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/pokeball" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button with icons"
+        android:drawableEnd="@drawable/ic_arrow_forward_green_24dp"
+        android:drawableStart="@drawable/ic_attach_money_black_24dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/radiobutton"
+            android:layout_weight="1"
+            android:text="Male" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:button="@drawable/radiobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Female" />
+
+        <RadioButton
+            android:button="@drawable/radiobutton"
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Others" />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Normally RadioButton created through drag and drop but android gives us Dynamic RadioButton in which you can create RadioButton through programming for example to create RadioButton given below dynamically check the Souce code"
+        android:layout_height="wrap_content" />
+</LinearLayout>
